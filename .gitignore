@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model files (downloaded at runtime)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Output audio
+*.wav
+*.mp3
+*.flac
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Pi
+.pi/skills/*/__pycache__/
