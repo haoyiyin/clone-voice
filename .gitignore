@@ -19,7 +19,7 @@ models/
 *.pt
 *.pth
 
-# Output audio
+# Generated output audio
 *.wav
 *.mp3
 *.flac
@@ -32,5 +32,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Pi
-.pi/skills/*/__pycache__/
+# Lint / cache
+.ruff_cache/
+.pytest_cache/
