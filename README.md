@@ -37,6 +37,16 @@ Compatible with any agent platform — **Pi**, **Cursor**, **Copilot**, **Claude
 
 ### 1. Install
 
+#### 🤖 Via AI Agent (Recommended)
+
+Tell any AI coding agent:
+
+> "Install the clone-voice skill from `haoyiyin/clone-voice`"
+
+Your agent will clone, install dependencies, and configure the skill automatically. Works with Pi, Claude Code, Cursor, Codex, Copilot, and any agent supporting the [Agent Skills specification](https://agentskills.io/specification).
+
+#### 🛠️ Manual Installation
+
 ```bash
 # One-time setup
 pip install qwen-tts soundfile transformers accelerate torch
@@ -60,8 +70,7 @@ One-time only.
 
 ## Agent Usage
 
-Load this skill into your agent. When a user asks for voice cloning, the agent
-follows the specification in [`skill/SKILL.md`](./skill/SKILL.md):
+Once installed, your agent follows the specification in [`skill/SKILL.md`](./skill/SKILL.md) automatically:
 
 | User says | Agent does |
 |-----------|------------|
